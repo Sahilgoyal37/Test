@@ -1,0 +1,93 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import "../../theme.scss"; 
+
+.buttonPadding{
+    border-radius: 0;
+     border-color: white; 
+     background-color: #b5b3b3;
+    
+}
+ 
+button:nth-child(2){
+
+    float: left;
+    /* margin-left: 20px; */
+}
+button:nth-child(3){
+    float: left;
+}
+.exitandsaveButtoncss{
+    padding: 5px 30px 5px 30px;
+}
+.nextButton{
+    padding: 5px 30px 5px 30px;
+}
+button:active{
+    // color: #ffff !important
+}
+button:focus{
+    // color: #ffff !important
+}
+.buttonColorBack{
+    color: $tertiary-color-3 !important;
+    box-shadow: none !important;
+    padding: 6px 30px !important;
+    margin-right: 15px !important;
+    line-height: 21px !important;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    border: 2px solid !important;
+    border-radius: 50px !important;
+    background-color:$tertiary-color-2 !important;
+    border-color:  $tertiary-color-3 !important;
+    font-family: "Hurme Geometric Sans 3" !important;
+    transition: background-color 0.5s !important;
+}
+
+.buttonColor1{
+    color: $tertiary-color-3 !important;
+    box-shadow: none !important;
+    padding: 6px 30px !important;
+    line-height: 21px !important;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    border: 2px solid !important;
+    border-radius: 50px !important;
+    background-color:$primary-color !important;
+    border-color:  $tertiary-color-3 !important;
+    font-family: "Hurme Geometric Sans 3" !important;
+    // margin-top: 2%;
+    // margin-bottom: 2%;
+    transition: background-color 0.5s !important;
+
+  }
+
+  .buttonColorBack:hover{
+    background-color: $tertiary-color-2 !important;
+    border-color:  $tertiary-color-2 !important;
+    color: whitesmoke !important;
+  }
+  .buttonColorBack:focus{
+    outline: none;
+}
+
+  .buttonColor1:hover{
+    background-color: $primary-color !important;
+    border-color:  $primary-color !important;
+    color: whitesmoke !important;
+  }
+  .buttonColor1:focus{
+    outline: none;
+}
+
+  @media screen and (max-width:767px){
+    .buttonColor1{
+        // width: 100% !important;
+        font-size: 16px !important;
+        padding: 12px 15px !important;
+        background-color: primary-color !important; 
+        background: $primary-color !important;  
+    }
+}

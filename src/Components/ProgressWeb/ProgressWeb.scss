@@ -1,0 +1,90 @@
+@import "../../theme.scss"; 
+
+.ant-steps {
+  width: 65%;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background: $primary-color !important;
+  border-color: $primary-color;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: $tertiary-color-2;
+  border-color: $tertiary-color-2;
+  color: #fff;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: #fff;
+  font-weight: bold;
+}
+.ant-steps-item-title::after {
+  position: absolute;
+  left: 100%;
+  display: block;
+  // width: 100px;
+  height: 2px;
+  background: #f0f0f0;
+  content: '';
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 16px;
+  :hover{
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color:$primary-color;
+
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color: $tertiary-color-2;
+}
+
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: $tertiary-color-2;
+  font-weight: 900;
+}
+
+.ant-steps-item-process .ant-steps-item-icon .ant-steps-icon {
+  font-weight: bold;
+  color: #fff;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title:hover{
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color:$primary-color;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon {
+ background-color: $primary-color;
+ border-color: $primary-color;
+ color: #fff
+
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #fff;
+  top: -4px;
+  font-weight: bold;
+}

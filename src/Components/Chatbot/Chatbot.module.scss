@@ -1,0 +1,337 @@
+
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import "../../theme.scss"; 
+
+.heading{
+    font-weight: 900 !important;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    line-height: 36px;
+    color: $secondary-color;
+}
+
+.message{
+    margin-bottom: 1.2rem !important;
+}
+
+
+.backgrondImage{
+  background-color: $background-color;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: initial;
+  min-height: 100vh;
+  background-size: cover;
+  padding-bottom: 1.5rem;
+
+}
+
+.qnaContainer{
+    margin-top:25px;
+    
+    padding: 20px 50px 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px #00000029;
+    
+}
+
+.Form{
+    display: flex;
+    width: 150px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.para{
+    margin-top: 1%;
+    font-size: 18px;
+    line-height: 32px;
+    margin-right: 1%;
+}
+.list{
+    font-size: 18px;
+    line-height: 40px;
+}
+.actionPlanPara{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 10px 0px;
+}
+.error{
+    color: $primary-color;
+    font-weight: bold;
+}
+
+.greyBlock{
+    display: block;
+    background-color: $tertiary-color-3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.spinner{
+    display: block;
+    margin: auto;
+    background: none;
+    width: 100px;
+}
+
+.linkElement{
+    text-align: left;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: $font-color;
+    font-size: 16px;
+    opacity: 1; 
+}
+
+.linkElement:hover{
+   text-decoration: none;
+   color: $primary-color;
+}
+
+.linkElement::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    content: '';
+}
+
+.paraElement{
+    text-align: left;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: $font-color;
+    font-size: 16px;
+    opacity: 1; 
+}
+
+.paraElement:hover{
+   text-decoration: none;
+   color: $primary-color;
+}
+
+.currentJourney{
+    font-weight: 900 !important;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    line-height: 36px;
+    color: $secondary-color;
+
+}
+.currentJourneyTitle{
+    font-weight: 900 !important;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    line-height: 36px;
+    color: $tertiary-color;
+
+}
+
+
+.currentJourneySpan{
+    color: $primary-color;
+}
+
+// .linkElement:link{
+//     color: #a60726;
+//     border-bottom: #a60726;
+// }
+.actionPlanFlex{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.actionPlanLinks{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-bottom: 2px solid $tertiary-color-3;
+    opacity: 1;
+    margin: 0% 4% 0% 0;
+    padding: 2% 0;
+}
+
+.linkSpan{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding-right: 2px;    
+
+}
+
+.linkSpanContent::before{
+    font-family: "Font Awesome 5 Free";
+    color: $tertiary-color;
+    content: "\f504";
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+}
+
+.linkSpanContentChecked::before{
+    font-family: "Font Awesome 5 Free";
+    color: #00FF00;
+    content: "\f058";
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    font-size:22px;
+}
+
+.verticalLine{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 30px;
+    border-right: $secondary-color 2px solid;
+}
+
+.iconCenter{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: -10px;
+    color: $primary-color;
+
+}
+
+.bullets{
+    padding-left: 0px;
+    margin: auto;
+    list-style: none;
+}
+
+
+.buttonColor1{
+
+    float: right;
+    color: $primary-color;
+    box-shadow: none;
+    // padding: 10px 24px;
+    //line-height: 21px;
+    text-transform: capitalize;
+    // font-weight: 700;
+    // font-size: 16px;
+    // border: 2px solid;
+    // border-radius: 5px;
+    // background-color: white;
+    // border-color:  $secondary-color;
+    // margin-bottom: 2%;
+    // transition: background-color 0.5s;
+    // text-align: center;
+  }
+  .logoPara{
+    color: $secondary-color;
+    text-align: left;
+    font: normal normal bold 18px/27px Tahoma ;
+    letter-spacing: 1.44px;
+    opacity: 1;
+}
+
+
+//   .buttonColor1:hover{
+//     background-color: $primary-color;
+//     border-color:  $primary-color;
+//     color: whitesmoke;
+//     text-decoration: none;
+//   }
+
+//   .buttonColor1:focus{
+//       outline: none;
+//   }
+
+  .downloadbtndiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // width: 120px;  
+    position: absolute;
+    bottom: 81px;
+    right: 54px;
+    z-index: 9;
+  }
+
+  .chatBotRow{
+    //   margin-top: 1%;
+      padding : 30px 55px 40px 55px;
+      height: calc(100vh - 179px)
+  }
+
+  .progressBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+  }
+  .buttonpanel{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+
+  .textInput {
+    max-width: 40rem;
+    min-width: 60%;
+    height: 5   rem;
+    background-color: white;
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1rem;
+    
+  }
+
+
+@media screen and (max-width:767px){
+    .heading{
+        font-size: 1.5rem;
+    }
+    .actionPlanPara{
+        font: normal normal normal 18px/25px Tahoma ;
+    }
+    .linkElement{
+        font: normal normal normal 16px/22px Tahoma;
+    }
+    .actionPlanLinks{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    .para{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .list{
+        font-size: 18px;
+        line-height: 27px;
+
+    }
+
+    .buttonColor1{
+        width: 100% !important;
+        font-size: small;
+    }
+      .bullets{
+          font-size: 14px;
+      }
+
+      .backgrondImage{
+        min-height: 100vh;
+    }
+}

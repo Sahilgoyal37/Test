@@ -1,0 +1,80 @@
+{
+  "name": "csf_cp",
+  "version": "0.14.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@babel/core": "^7.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@react-pdf/renderer": "^2.0.16",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.0",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.1.0",
+    "antd": "^4.16.8",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "file-saver": "^2.0.5",
+    "fs": "0.0.1-security",
+    "markdown-react-js": "^1.0.2",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "node-sass-json-importer": "^4.3.0",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-flexible-sliding-menu": "^0.1.9",
+    "react-floating-button-menu": "^2.1.1",
+    "react-keyboard-event-handler": "^1.5.4",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.2.2",
+    "react-share": "^4.4.0",
+    "redux": "^4.1.0",
+    "sass-extract": "^2.1.0",
+    "sass-extract-loader": "^1.1.0",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prebuild": "npm run generate-build-version",
+    "prestart": "npm run generate-build-version",
+    "generate-build-version": "node generate-build-version"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": "12.18.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  }
+}

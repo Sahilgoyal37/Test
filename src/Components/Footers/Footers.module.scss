@@ -1,0 +1,82 @@
+@import "../../theme.scss"; 
+
+.footers{
+   position: fixed;
+   bottom:0px;
+   width:100%;
+   background-color: $background-color;
+   padding: 1rem;
+   font-size: 14px;
+   display: flex;
+   flex-direction: row;
+   padding-right: 50px;
+   padding-left: 30px;
+   margin-right: auto;
+   margin-left: auto;
+   justify-content: space-between;   
+   padding-top: 42px;
+}
+
+.aligner{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.citation{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    color: $secondary-color;
+    margin-left: 13%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    color: $tertiary-color-2;
+    
+    
+}
+.footerLinks{
+    padding-right: 1rem ;
+    color: $secondary-color;
+}
+
+.footerLinks:hover{
+    color: $secondary-color;
+    border-bottom: $secondary-color;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.logoImage{
+    width: 150px;
+    // height: 60px;
+}
+.buttons {
+    flex: none;
+}
+
+
+@media screen and (max-width:767px){
+    .footers{
+        padding: 0.5rem;
+        position: inherit;
+        bottom: 0px;
+        width: 100%;
+        background-color: unset;
+        box-shadow: none;
+        max-height: unset;
+    }
+}
+

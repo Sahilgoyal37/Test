@@ -1,0 +1,67 @@
+@import "./theme.scss"; 
+
+
+html, body {
+  min-height: 100%;
+  position: relative;
+  font-family: "Myriad Pro Regular" !important;
+  color: $font-color;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Myriad Pro Bold" !important;
+  color: $font-color;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: $font-color !important ;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  ::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+  height: 10px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: $background-color;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: $tertiary-color-2 !important;
+  border-radius: 5px;
+
+}
+}
+
+div {
+  display: block;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-fluid{
+  padding: 0 !important;
+}
+
+@media screen and (max-width:767px){
+  body::-webkit-scrollbar{
+    width:2px !important;
+  }
+}

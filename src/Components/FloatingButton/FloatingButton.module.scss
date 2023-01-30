@@ -1,0 +1,60 @@
+@import "../../theme.scss"; 
+
+.shareButton{
+    color: $tertiary-color-3;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.links{
+    border: 2px solid $tertiary-color-3;
+    background-color: $secondary-color;
+    padding: 4px 24px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 50px;
+    color:$tertiary-color-3;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 1px;    
+}
+
+.links:hover{
+    background-color: $primary-color;
+    color:  $tertiary-color-3;
+    border-color: $primary-color;
+    transition: all 0.5s;
+}
+
+.links:focus{
+    background-color: $secondary-color;
+    color:  $tertiary-color-3;
+    outline: none;
+    transition: all 0.5s;
+}
+
+
+.linkElement{
+    color: $primary-color;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.linkElement:hover{
+    color: $primary-color;
+    border-bottom: $primary-color;
+}
+
+.backgroundColor{
+    background-color:  $tertiary-color-3;
+}
+
+.icons{
+    margin-right: 2rem;
+}
+
+.iconsbar:hover{
+    opacity: 0.7;
+}
