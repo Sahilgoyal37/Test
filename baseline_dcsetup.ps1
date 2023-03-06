@@ -43,8 +43,10 @@ Function Get-RandomPassword
  
 #Call the function to generate random password of 8 characters
 $password = Get-RandomPassword -PasswordLength 8
+$EncryptedPassword = $Password |ConvertTo-SecureString -AsPlainText -Force
  
 
 Import-Module ADDSDeployment
 Install-ADDSForest -CreateDnsDelegation:$false -DatabasePath "F:\windows\NTDS" -DomainMode "WinThreshold" -DomainName "demo.local" -DomainNetbiosName ` "demo" -ForestMode "WinThreshold" -InstallDns:$true -LogPath "F:\windows\NTDS" -NoRebootOnCompletion:$false -SysvolPath "F:\windows\SYSVOL" -Force:$true `
--SafeModeAdministratorPassword $password
+-SafeModeAdministratorPassword $EncryptedPassword 
+
